@@ -1,7 +1,7 @@
 # No seu configuration.nix
 {
   inputs = {
-    velora.url = "path:/home/mingas/projetos/Velora";
+    velora.url = "github:miguel-b-p/velora";
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
   };
   outputs =

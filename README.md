@@ -12,7 +12,7 @@ Add Velora to your `flake.nix` inputs:
 {
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    velora.url = "github:yourusername/velora"; # Replace with actual URL or path
+    velora.url = "github:miguel-b-p/velora"; # Replace with actual URL or path
   };
 
   outputs = { self, nixpkgs, velora, ... }: {
